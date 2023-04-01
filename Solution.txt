@@ -1,0 +1,84 @@
+Scénario :
+Vous êtes un agent secret envoyé pour pirater le compte administrateur (appartenant à la directrice) d’une organisation malveillante russe.
+Suite à un précédent piratage, les précédents agents ont mis la main sur les donnés personnels de celle-ci.
+Votre organisation anti criminalité « MacroEspion » vous a placé ces données dans une copie de Windows 98,
+« Escape 98 ». Votre objectif est donc à partir de ces données, de trouver le mot de passe.
+La page de connexion du site est accessible une fois Internet Explorer démarré.
+
+L’objectif est d’explorer un maximum Escape 98.
+Les éléments semblent être inintéressants, pourtant certains risquent d’être très utiles.
+Pour vous aider, une petite ampoule en bas à droite peut vous donner des conseils, des astuces, ou encore des informations sur la page où vous êtes.
+
+
+
+
+Solution :
+
+------------------------------------------------------------------------------Etape 1 – La quête de l’identifiant
+
+1)
+Sur le bureau Escape, aller dans « Poste de travail » puis dans « Escape » et pour finir « binaire2 ».
+
+2)
+Un texte en binaire apparaît, une fois traduit à l'aide d'un traducteur binaire - texte, ce texte apparaît :
+« Si vous connaissez l’année de création de Microsoft, rajouter après « ?scr= » de l’url, l’année. ». 
+
+Microsoft étant créer en 1975, vous devrez modifier l'url pour que ça donne: http://127.0.0.1:5000/explorateur/Escape98?scr=1975
+
+
+3)
+En chargeant cette url, vous tomber sur un pop-up en russe vous demandant d'écrire en identifiant "Идентификатор".
+Et en mot de passe "Пароль", tout en choisissant l'image du chien 3.
+Ce texte en russe fait allusion à la page de connexion du site russe (accessible via Internet Explorer).
+
+4)
+Une fois connectée à cette page,
+
+la figure 4 est la réponse du quizz 1, pour le quizz 2 "98" en binaire donne: "1100010", et "opengl" est le moteur graphique de l'écran de veille "Labyrinthe 3D"
+Sur le gif "3Dmaze" dans "explorateur/Escape98", on peut voir sur l'un des murs une image avec un globe, des legos, et les lettres O P E N G L
+(on voit aussi en partie cette image sur le fond du site).
+
+Sur le quizz 2 la première lettre du mot de passe "N" est affiché.
+
+5)
+Une fois les quizz terminés, un pop-up en russe vous indique que l'identifiant est "umphathi wenkululeko" (Administrateur des libertés en Zoulou).
+
+------------------------------------------------------------------------------Etape 2 – La quête de l’image de connexion
+
+1) Chercher dans le menu démarré "discord", et utilisé l'identifiant trouvé pour vous y connecter. -> la 2ème lettre du mot de passe "i" apparaît.
+
+2) Dans la conversation avec l'Agent 5WA40, on apprend qu'il faut aller chercher dans le menu démarré "IMGQUEST" pour y trouver l'image du chien.
+
+3) Une fois sur IMGQUEST, vous devrez cocher les 2 intrus parmi les images 1,2,3,4,7,8,10. Le numéro sur l'image indique à quelle ligne l'image correspond.
+
+Ainsi les intrus sont:
+- L'image 3 (un pot de fleurs) avec marquer 3.
+- L'image 8 (une image d'un pont) avec marquer 1.
+
+Ainsi: Ligne 1, il faut coché "8", on laisse la ligne 2 vide, et ligne 3, on coche "Imgage3".
+
+4) La musique étant "Envole moi", le chanteur est Jean-Jacques Goldman. La réponse est donc "goldman".
+
+5) Les paroles manquantes sont: "entre l'ignorance et la violence et l'ennui" (tout en minuscule). -> la 3ème lettre du mot de passe "n" apparaît.
+
+6) La première image cochée étant la n°8, et la deuxième, la n°3, cela forme le nombre "83".
+Il faut donc écrire comme url: http://127.0.0.1:5000/explorateur/images?scr=img83.
+
+7) Vous y voyez l'image 2, qui est donc l'image à sélectionner sur la page de connexion. Un "j" apparaîs dessus, c'est la 4ème lettre du mot de passe.
+Mais cette image est également cliquable.
+
+------------------------------------------------------------------------------Etape 3 – La quête de du mot de passe
+1) Une fois cliqué, vous tomber sur une dernière conversation discord, caché, qui vous indique que mis bout à bout, les lettres forment le mot de passe.
+La dernière lettre apparaît sur cette page: le "a".
+
+Le mot de passe est donc "Ninja".
+
+------------------------------------------------------------------------------Etape 4 – Connexion au site, fin de l'aventure.
+
+En récapitulatif:
+
+-- Identifiant: "umphathi wenkululeko"
+-- Mot de passe: "Ninja"
+-- Image: Chien 2
+
+Vous pouvez désormais terminer l'escape game une fois que vous vous êtes connecté.

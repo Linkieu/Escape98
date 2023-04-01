@@ -1,0 +1,46 @@
+h1{
+    text-align:center
+}
+
+body{
+	
+	
+	background-image:url(images/autres/fond_site.webp);
+	
+	background-size:100%;
+	margin:;
+	background-position:center 0px;
+	background-repeat:no-repeat;
+	background-color: blue
+}
+
+IMG.centrer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+	
+P.centrer { text-align: center }
+
+div.centrer {
+   position:absolute;
+   top:-50px;
+   left:60%;
+   width:200px; /* oui */
+   height:200px; /* bien sur */
+}
+
+@font-face {
+  font-family: windowsfont;
+  src: url(polices/MS_Sans_Serif.ttf);
+
+}
+
+@font-face {
+  font-family: arialbl;
+  src: url(polices/arialb.ttf);
+  
+@font-face {
+  font-family: impact;
+  src: url(polices/impact.ttf);
+
+}
